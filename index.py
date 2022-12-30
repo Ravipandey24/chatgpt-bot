@@ -12,8 +12,8 @@ from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 
 
-telegram_token = '5870064303:AAERksblV4tbEnl5l0oLpPJeTKXn_puVFOc'
-api = ChatGPT(auth_type='openai', email='shuklaanuj048@gmail.com', password='Hk@Openai007#')
+telegram_token = 'telegram_token'
+api = ChatGPT(auth_type='openai', email='your_email', password='your_pass')
 
 # resp = api.send_message('Hello, world!')
 # print(resp['message'])
